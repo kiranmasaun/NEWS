@@ -1,1 +1,5 @@
-# NEWS
+# Trivia
+80s PopC Trivia Project 
+
+Trivia is a new project where users will be served trivia questions from different categories and test their knowledge in those different categories by engaging and answering questions. Similar to the jobs project, we will be sending email creatives to users, users can then click on the answer of their choice and be redirected to the Trivia website to play more/engage in answering more questions. Questions are selected from the database and there are multiple logical steps which determine how many questions, from what category, with what priority and dedupe days are displayed. We need to test the functionality of certain parameters such as qLimit, LookbackInterval, priority and category. For the current phase we will be using category = 0 (random categories) and priority: 1 which determines high priority and priority: 0 which determines low priority. We have 7 different categories to choose from but for this phase focus on testing category: 0. Similarly we will test the functionality of priority selection in more depth as we add more conditions and priority logic but for now we only have 1 and 0 as values for this parameter. Additional Logic for preferred categories and preferred priority will be added in the next phases. 
+

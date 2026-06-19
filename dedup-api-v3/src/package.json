@@ -1,0 +1,9 @@
+{
+  "name": "dedup-service-prod-v3",
+  "version": "1.0.0",
+  "description": "DedupService V3 — SAM managed, DynamoDB Options 1+3 optimizations",
+  "main": "index.js",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.0.0"
+  }
+}
