@@ -1,0 +1,138 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: News Cache Tables Refresh Lambda - Production V11 (ISP filter via category_id)
+
+Resources:
+
+  NewsCacheTablesRefreshRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: ContentMailing_NewsCacheRefresh_Prod_V11_Execution_Role
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: CloudWatchLogsAccess
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - logs:CreateLogGroup
+                Resource: arn:aws:logs:us-west-2:022542942195:*
+              - Effect: Allow
+                Action:
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                Resource:
+                  - arn:aws:logs:us-west-2:022542942195:log-group:/aws/lambda/*:*
+
+        - PolicyName: VPCAccess
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Sid: AWSLambdaVPCAccessExecutionPermissions
+                Effect: Allow
+                Action:
+                  - logs:CreateLogGroup
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                  - ec2:CreateNetworkInterface
+                  - ec2:DescribeNetworkInterfaces
+                  - ec2:DescribeSubnets
+                  - ec2:DeleteNetworkInterface
+                  - ec2:AssignPrivateIpAddresses
+                  - ec2:UnassignPrivateIpAddresses
+                Resource: '*'
+
+  NewsCacheTablesRefreshFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: News_CacheTablesRefresh_Prod_V11
+      CodeUri: ./src
+      Description: 'Refreshes pre-materialized cache tables for News mailing V11 (TN + NC_yahoo + NC_gmail)'
+      MemorySize: 256
+      Timeout: 300   # 5 min max — runs two sequential RENAME swaps, each should complete in < 60s
+      Handler: index.handler
+      Runtime: nodejs22.x
+      Architectures:
+        - x86_64
+      EphemeralStorage:
+        Size: 512
+      Environment:
+        Variables:
+          db_host:     !Ref DBHost
+          db_name:     !Ref DBName
+          db_password: !Ref DBPassword
+          db_user:     !Ref DBUser
+      PackageType: Zip
+      Role: !GetAtt NewsCacheTablesRefreshRole.Arn
+      RecursiveLoop: Terminate
+      SnapStart:
+        ApplyOn: None
+      Tags:
+        Product: ContentMailingNews
+        Environment: Production
+        Version: V11
+        Purpose: CacheRefresh
+      VpcConfig:
+        SecurityGroupIds:
+          - sg-0be4c169669971207
+        SubnetIds:
+          - subnet-04df9bfa3cdb1f767
+          - subnet-0c180c5c475dbf2f8
+        Ipv6AllowedForDualStack: false
+      RuntimeManagementConfig:
+        UpdateRuntimeOn: Auto
+
+
+Parameters:
+
+  StackName:
+    Type: String
+    Default: news-cache-tables-refresh-prod-v11
+    Description: Name for the CloudFormation stack
+
+  DeploymentRegion:
+    Type: String
+    Default: us-west-2
+    Description: AWS Region for deployment
+
+  DBHost:
+    Type: String
+    Description: RDS master endpoint (write access required for RENAME TABLE)
+    Default: sd-rds-01.c8lpklkvlcek.us-west-2.rds.amazonaws.com
+
+  DBName:
+    Type: String
+    Description: Database name
+    Default: NewsEngine
+
+  DBPassword:
+    Type: String
+    Description: Database password
+    NoEcho: true
+    Default: qKUw2ecN7JTr7smStbP5Cw
+
+  DBUser:
+    Type: String
+    Description: Database user
+    Default: sd.trivia.app.user
+
+
+Outputs:
+  FunctionArn:
+    Description: Cache Refresh Lambda Function ARN
+    Value: !GetAtt NewsCacheTablesRefreshFunction.Arn
+    Export:
+      Name: !Sub "${AWS::StackName}-FunctionArn"
+
+  RoleArn:
+    Description: IAM Role ARN
+    Value: !GetAtt NewsCacheTablesRefreshRole.Arn
+    Export:
+      Name: !Sub "${AWS::StackName}-RoleArn"

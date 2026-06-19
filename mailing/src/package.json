@@ -1,0 +1,13 @@
+{
+  "name": "news-mailing-prod-v11",
+  "version": "1.0.0",
+  "description": "News Content Mailing Lambda Function - Production V11",
+  "main": "index.js",
+  "dependencies": {
+    "ioredis": "^5.4.2",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "node-html-parser": "^7.0.1",
+    "mysql2": "^3.12.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "news-cache-tables-refresh-prod-v11",
+  "version": "1.0.0",
+  "description": "News Cache Tables Refresh Lambda - Production V11",
+  "main": "index.js",
+  "dependencies": {
+    "mysql2": "^3.12.0"
+  }
+}

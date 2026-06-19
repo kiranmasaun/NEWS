@@ -1,0 +1,682 @@
+[
+  {
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/",
+    "rawQueryString": "ip=1.2.3.4&template_id=1&chnl1=a&chnl2=b&chnl3=c&email=shalini7_in@yahoo.com&response_format=rawHtml&dedup_service_project=news_command&json_config=%5B%7B%22qLimit%22%3A100%2C%22lookBackInterval%22%3A1%2C%22category%22%3A%22p1%22%2C%22priority%22%3A3%2C%22dataType%22%3A%22ret-clickers%22%7D%5D",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "",
+      "user-agent": "APIClient/1.0"
+    },
+    "queryStringParameters": {
+      "ip": "1.2.3.4",
+      "template_id": "1",
+      "chnl1": "a",
+      "chnl2": "b",
+      "chnl3": "c",
+      "email": "shalini7_in@yahoo.com",
+      "response_format": "rawHtml",
+      "dedup_service_project": "news_command",
+      "json_config": "[{\"qLimit\":100,\"lookBackInterval\":1,\"category\":\"p1\",\"priority\":3,\"dataType\":\"ret-clickers\"}]\n"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "abcdef123",
+      "domainName": "",
+      "http": {
+        "method": "GET",
+        "path": "/",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "1.2.3.4",
+        "userAgent": "APIClient/1.0"
+      },
+      "requestId": "req-id-placeholder",
+      "stage": "$default",
+      "time": "09/Apr/2015:12:34:56 +0000",
+      "timeEpoch": 1428582896000
+    },
+    "isBase64Encoded": false
+  },
+  {
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/",
+    "rawQueryString": "ip=1.2.3.4&template_id=1&chnl1=a&chnl2=b&chnl3=c&email=shalini7_in@yahoo.com&response_format=rawHtml&dedup_service_project=news_command&json_config=%5B%7B%22qLimit%22%3A70%2C%22lookBackInterval%22%3A1%2C%22category%22%3A%22p1%22%2C%22priority%22%3A3%2C%22dataType%22%3A%22ret-clickers%22%7D%5D",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "",
+      "user-agent": "APIClient/1.0"
+    },
+    "queryStringParameters": {
+      "ip": "1.2.3.4",
+      "template_id": "1",
+      "chnl1": "a",
+      "chnl2": "b",
+      "chnl3": "c",
+      "email": "shalini7_in@yahoo.com",
+      "response_format": "rawHtml",
+      "dedup_service_project": "news_command",
+      "json_config": "[{\"qLimit\":70,\"lookBackInterval\":1,\"category\":\"p1\",\"priority\":3,\"dataType\":\"ret-clickers\"}]\n"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "abcdef123",
+      "domainName": "",
+      "http": {
+        "method": "GET",
+        "path": "/",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "1.2.3.4",
+        "userAgent": "APIClient/1.0"
+      },
+      "requestId": "req-id-placeholder",
+      "stage": "$default",
+      "time": "09/Apr/2015:12:34:56 +0000",
+      "timeEpoch": 1428582896000
+    },
+    "isBase64Encoded": false
+  },
+  {
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/",
+    "rawQueryString": "ip=1.2.3.4&template_id=1&chnl1=a&chnl2=b&chnl3=c&email=shalini7_in@yahoo.com&response_format=rawHtml&dedup_service_project=news_command&json_config=%5B%7B%22qLimit%22%3A9%2C%22lookBackInterval%22%3A1%2C%22category%22%3A%22p1%22%2C%22priority%22%3A3%2C%22dataType%22%3A%22ret-clickers%22%7D%5D",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "",
+      "user-agent": "APIClient/1.0"
+    },
+    "queryStringParameters": {
+      "ip": "1.2.3.4",
+      "template_id": "1",
+      "chnl1": "a",
+      "chnl2": "b",
+      "chnl3": "c",
+      "email": "shalini7_in@yahoo.com",
+      "response_format": "rawHtml",
+      "dedup_service_project": "news_command",
+      "json_config": "[{\"qLimit\":9,\"lookBackInterval\":1,\"category\":\"p1\",\"priority\":3,\"dataType\":\"ret-clickers\"}]\n"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "abcdef123",
+      "domainName": "",
+      "http": {
+        "method": "GET",
+        "path": "/",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "1.2.3.4",
+        "userAgent": "APIClient/1.0"
+      },
+      "requestId": "req-id-placeholder",
+      "stage": "$default",
+      "time": "09/Apr/2015:12:34:56 +0000",
+      "timeEpoch": 1428582896000
+    },
+    "isBase64Encoded": false
+  },
+  {
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/",
+    "rawQueryString": "ip=1.2.3.4&template_id=1&chnl1=a&chnl2=b&chnl3=c&email=shalini8_in@yahoo.com&response_format=rawHtml&dedup_service_project=news_command&json_config=%5B%7B%22qLimit%22%3A100%2C%22lookBackInterval%22%3A1%2C%22category%22%3A%22p1%22%2C%22priority%22%3A1%2C%22dataType%22%3A%22ret-clickers%22%7D%5D",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "",
+      "user-agent": "APIClient/1.0"
+    },
+    "queryStringParameters": {
+      "ip": "1.2.3.4",
+      "template_id": "1",
+      "chnl1": "a",
+      "chnl2": "b",
+      "chnl3": "c",
+      "email": "shalini8_in@yahoo.com",
+      "response_format": "rawHtml",
+      "dedup_service_project": "news_command",
+      "json_config": "[{\"qLimit\":100,\"lookBackInterval\":1,\"category\":\"p1\",\"priority\":1,\"dataType\":\"ret-clickers\"}]\n"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "abcdef123",
+      "domainName": "",
+      "http": {
+        "method": "GET",
+        "path": "/",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "1.2.3.4",
+        "userAgent": "APIClient/1.0"
+      },
+      "requestId": "req-id-placeholder",
+      "stage": "$default",
+      "time": "09/Apr/2015:12:34:56 +0000",
+      "timeEpoch": 1428582896000
+    },
+    "isBase64Encoded": false
+  },
+  {
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/",
+    "rawQueryString": "ip=1.2.3.4&template_id=1&chnl1=a&chnl2=b&chnl3=c&email=shalini8_in@yahoo.com&response_format=rawHtml&dedup_service_project=news_command&json_config=%5B%7B%22qLimit%22%3A50%2C%22lookBackInterval%22%3A1%2C%22category%22%3A%22p1%22%2C%22priority%22%3A1%2C%22dataType%22%3A%22ret-clickers%22%7D%5D",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "",
+      "user-agent": "APIClient/1.0"
+    },
+    "queryStringParameters": {
+      "ip": "1.2.3.4",
+      "template_id": "1",
+      "chnl1": "a",
+      "chnl2": "b",
+      "chnl3": "c",
+      "email": "shalini8_in@yahoo.com",
+      "response_format": "rawHtml",
+      "dedup_service_project": "news_command",
+      "json_config": "[{\"qLimit\":50,\"lookBackInterval\":1,\"category\":\"p1\",\"priority\":1,\"dataType\":\"ret-clickers\"}]\n"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "abcdef123",
+      "domainName": "",
+      "http": {
+        "method": "GET",
+        "path": "/",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "1.2.3.4",
+        "userAgent": "APIClient/1.0"
+      },
+      "requestId": "req-id-placeholder",
+      "stage": "$default",
+      "time": "09/Apr/2015:12:34:56 +0000",
+      "timeEpoch": 1428582896000
+    },
+    "isBase64Encoded": false
+  },
+  {
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/",
+    "rawQueryString": "ip=1.2.3.4&template_id=1&chnl1=a&chnl2=b&chnl3=c&email=shalini8_in@yahoo.com&response_format=rawHtml&dedup_service_project=news_command&json_config=%5B%7B%22qLimit%22%3A50%2C%22lookBackInterval%22%3A1%2C%22category%22%3A%22p1%22%2C%22priority%22%3A1%2C%22dataType%22%3A%22ret-clickers%22%7D%5D",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "",
+      "user-agent": "APIClient/1.0"
+    },
+    "queryStringParameters": {
+      "ip": "1.2.3.4",
+      "template_id": "1",
+      "chnl1": "a",
+      "chnl2": "b",
+      "chnl3": "c",
+      "email": "shalini8_in@yahoo.com",
+      "response_format": "rawHtml",
+      "dedup_service_project": "news_command",
+      "json_config": "[{\"qLimit\":50,\"lookBackInterval\":1,\"category\":\"p1\",\"priority\":1,\"dataType\":\"ret-clickers\"}]\n"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "abcdef123",
+      "domainName": "",
+      "http": {
+        "method": "GET",
+        "path": "/",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "1.2.3.4",
+        "userAgent": "APIClient/1.0"
+      },
+      "requestId": "req-id-placeholder",
+      "stage": "$default",
+      "time": "09/Apr/2015:12:34:56 +0000",
+      "timeEpoch": 1428582896000
+    },
+    "isBase64Encoded": false
+  },
+  {
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/",
+    "rawQueryString": "ip=1.2.3.4&template_id=1&chnl1=a&chnl2=b&chnl3=c&email=shalini8_in@yahoo.com&response_format=rawHtml&dedup_service_project=news_command&json_config=%5B%7B%22qLimit%22%3A20%2C%22lookBackInterval%22%3A1%2C%22category%22%3A%22p1%22%2C%22priority%22%3A1%2C%22dataType%22%3A%22ret-clickers%22%7D%5D",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "",
+      "user-agent": "APIClient/1.0"
+    },
+    "queryStringParameters": {
+      "ip": "1.2.3.4",
+      "template_id": "1",
+      "chnl1": "a",
+      "chnl2": "b",
+      "chnl3": "c",
+      "email": "shalini8_in@yahoo.com",
+      "response_format": "rawHtml",
+      "dedup_service_project": "news_command",
+      "json_config": "[{\"qLimit\":20,\"lookBackInterval\":1,\"category\":\"p1\",\"priority\":1,\"dataType\":\"ret-clickers\"}]\n"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "abcdef123",
+      "domainName": "",
+      "http": {
+        "method": "GET",
+        "path": "/",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "1.2.3.4",
+        "userAgent": "APIClient/1.0"
+      },
+      "requestId": "req-id-placeholder",
+      "stage": "$default",
+      "time": "09/Apr/2015:12:34:56 +0000",
+      "timeEpoch": 1428582896000
+    },
+    "isBase64Encoded": false
+  },
+  {
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/",
+    "rawQueryString": "ip=1.2.3.4&template_id=1&chnl1=a&chnl2=b&chnl3=c&email=aditya1Test10004@yahoo.com&response_format=rawHtml&dedup_service_project=news_command&json_config=%5B%7B%22qLimit%22%3A8%2C%22lookBackInterval%22%3A1%2C%22category%22%3A%226%22%2C%22priority%22%3A2%2C%22dataType%22%3A%22ret-clickers%22%7D%5D",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "",
+      "user-agent": "APIClient/1.0"
+    },
+    "queryStringParameters": {
+      "ip": "1.2.3.4",
+      "template_id": "1",
+      "chnl1": "a",
+      "chnl2": "b",
+      "chnl3": "c",
+      "email": "aditya1Test10004@yahoo.com",
+      "response_format": "rawHtml",
+      "dedup_service_project": "news_command",
+      "json_config": "[{\"qLimit\":8,\"lookBackInterval\":1,\"category\":\"6\",\"priority\":2,\"dataType\":\"ret-clickers\"}]\n"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "abcdef123",
+      "domainName": "",
+      "http": {
+        "method": "GET",
+        "path": "/",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "1.2.3.4",
+        "userAgent": "APIClient/1.0"
+      },
+      "requestId": "req-id-placeholder",
+      "stage": "$default",
+      "time": "09/Apr/2015:12:34:56 +0000",
+      "timeEpoch": 1428582896000
+    },
+    "isBase64Encoded": false
+  },
+  {
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/",
+    "rawQueryString": "ip=1.2.3.4&template_id=1&chnl1=a&chnl2=b&chnl3=c&email=aditya1Test10014@yahoo.com&response_format=rawHtml&dedup_service_project=news_command&json_config=%5B%7B%22qLimit%22%3A90%2C%22lookBackInterval%22%3A1%2C%22category%22%3A%226%22%2C%22priority%22%3A2%2C%22dataType%22%3A%22ret-clickers%22%7D%5D",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "",
+      "user-agent": "APIClient/1.0"
+    },
+    "queryStringParameters": {
+      "ip": "1.2.3.4",
+      "template_id": "1",
+      "chnl1": "a",
+      "chnl2": "b",
+      "chnl3": "c",
+      "email": "aditya1Test10014@yahoo.com",
+      "response_format": "rawHtml",
+      "dedup_service_project": "news_command",
+      "json_config": "[{\"qLimit\":90,\"lookBackInterval\":1,\"category\":\"6\",\"priority\":2,\"dataType\":\"ret-clickers\"}]\n"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "abcdef123",
+      "domainName": "",
+      "http": {
+        "method": "GET",
+        "path": "/",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "1.2.3.4",
+        "userAgent": "APIClient/1.0"
+      },
+      "requestId": "req-id-placeholder",
+      "stage": "$default",
+      "time": "09/Apr/2015:12:34:56 +0000",
+      "timeEpoch": 1428582896000
+    },
+    "isBase64Encoded": false
+  },
+  {
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/",
+    "rawQueryString": "ip=1.2.3.4&template_id=1&chnl1=a&chnl2=b&chnl3=c&email=aditya1Test10020@yahoo.com&response_format=rawHtml&dedup_service_project=news_command&json_config=%5B%7B%22qLimit%22%3A100%2C%22lookBackInterval%22%3A1%2C%22category%22%3A%226%22%2C%22priority%22%3A2%2C%22dataType%22%3A%22ret-clickers%22%7D%5D",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "",
+      "user-agent": "APIClient/1.0"
+    },
+    "queryStringParameters": {
+      "ip": "1.2.3.4",
+      "template_id": "1",
+      "chnl1": "a",
+      "chnl2": "b",
+      "chnl3": "c",
+      "email": "aditya1Test10020@yahoo.com",
+      "response_format": "rawHtml",
+      "dedup_service_project": "news_command",
+      "json_config": "[{\"qLimit\":100,\"lookBackInterval\":1,\"category\":\"6\",\"priority\":2,\"dataType\":\"ret-clickers\"}]\n"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "abcdef123",
+      "domainName": "",
+      "http": {
+        "method": "GET",
+        "path": "/",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "1.2.3.4",
+        "userAgent": "APIClient/1.0"
+      },
+      "requestId": "req-id-placeholder",
+      "stage": "$default",
+      "time": "09/Apr/2015:12:34:56 +0000",
+      "timeEpoch": 1428582896000
+    },
+    "isBase64Encoded": false
+  },
+  {
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/",
+    "rawQueryString": "ip=1.2.3.4&template_id=1&chnl1=a&chnl2=b&chnl3=c&email=aditya1Test10026@yahoo.com&response_format=rawHtml&dedup_service_project=news_command&json_config=%5B%7B%22qLimit%22%3A5%2C%22lookBackInterval%22%3A1%2C%22category%22%3A%225%22%2C%22priority%22%3A1%2C%22dataType%22%3A%22ret-clickers%22%7D%5D",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "",
+      "user-agent": "APIClient/1.0"
+    },
+    "queryStringParameters": {
+      "ip": "1.2.3.4",
+      "template_id": "1",
+      "chnl1": "a",
+      "chnl2": "b",
+      "chnl3": "c",
+      "email": "aditya1Test10026@yahoo.com",
+      "response_format": "rawHtml",
+      "dedup_service_project": "news_command",
+      "json_config": "[{\"qLimit\":5,\"lookBackInterval\":1,\"category\":\"5\",\"priority\":1,\"dataType\":\"ret-clickers\"}]\n"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "abcdef123",
+      "domainName": "",
+      "http": {
+        "method": "GET",
+        "path": "/",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "1.2.3.4",
+        "userAgent": "APIClient/1.0"
+      },
+      "requestId": "req-id-placeholder",
+      "stage": "$default",
+      "time": "09/Apr/2015:12:34:56 +0000",
+      "timeEpoch": 1428582896000
+    },
+    "isBase64Encoded": false
+  },
+  {
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/",
+    "rawQueryString": "ip=1.2.3.4&template_id=1&chnl1=a&chnl2=b&chnl3=c&email=aditya1Test10027@yahoo.com&response_format=rawHtml&dedup_service_project=news_command&json_config=%5B%7B%22qLimit%22%3A10%2C%22lookBackInterval%22%3A1%2C%22category%22%3A%225%22%2C%22priority%22%3A1%2C%22dataType%22%3A%22ret-clickers%22%7D%5D",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "",
+      "user-agent": "APIClient/1.0"
+    },
+    "queryStringParameters": {
+      "ip": "1.2.3.4",
+      "template_id": "1",
+      "chnl1": "a",
+      "chnl2": "b",
+      "chnl3": "c",
+      "email": "aditya1Test10027@yahoo.com",
+      "response_format": "rawHtml",
+      "dedup_service_project": "news_command",
+      "json_config": "[{\"qLimit\":10,\"lookBackInterval\":1,\"category\":\"5\",\"priority\":1,\"dataType\":\"ret-clickers\"}]\n"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "abcdef123",
+      "domainName": "",
+      "http": {
+        "method": "GET",
+        "path": "/",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "1.2.3.4",
+        "userAgent": "APIClient/1.0"
+      },
+      "requestId": "req-id-placeholder",
+      "stage": "$default",
+      "time": "09/Apr/2015:12:34:56 +0000",
+      "timeEpoch": 1428582896000
+    },
+    "isBase64Encoded": false
+  },
+  {
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/",
+    "rawQueryString": "ip=1.2.3.4&template_id=1&chnl1=a&chnl2=b&chnl3=c&email=aditya1Test10030@yahoo.com&response_format=rawHtml&dedup_service_project=news_command&json_config=%5B%7B%22qLimit%22%3A1%2C%22lookBackInterval%22%3A1%2C%22category%22%3A%225%22%2C%22priority%22%3A1%2C%22dataType%22%3A%22ret-clickers%22%7D%5D",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "",
+      "user-agent": "APIClient/1.0"
+    },
+    "queryStringParameters": {
+      "ip": "1.2.3.4",
+      "template_id": "1",
+      "chnl1": "a",
+      "chnl2": "b",
+      "chnl3": "c",
+      "email": "aditya1Test10030@yahoo.com",
+      "response_format": "rawHtml",
+      "dedup_service_project": "news_command",
+      "json_config": "[{\"qLimit\":1,\"lookBackInterval\":1,\"category\":\"5\",\"priority\":1,\"dataType\":\"ret-clickers\"}]\n"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "abcdef123",
+      "domainName": "",
+      "http": {
+        "method": "GET",
+        "path": "/",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "1.2.3.4",
+        "userAgent": "APIClient/1.0"
+      },
+      "requestId": "req-id-placeholder",
+      "stage": "$default",
+      "time": "09/Apr/2015:12:34:56 +0000",
+      "timeEpoch": 1428582896000
+    },
+    "isBase64Encoded": false
+  },
+  {
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/",
+    "rawQueryString": "ip=1.2.3.4&template_id=1&chnl1=a&chnl2=b&chnl3=c&email=aditya1Test10030@yahoo.com&response_format=rawHtml&dedup_service_project=news_command&json_config=%5B%7B%22qLimit%22%3A1%2C%22lookBackInterval%22%3A1%2C%22category%22%3A%225%22%2C%22priority%22%3A1%2C%22dataType%22%3A%22ret-clickers%22%7D%5D",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "",
+      "user-agent": "APIClient/1.0"
+    },
+    "queryStringParameters": {
+      "ip": "1.2.3.4",
+      "template_id": "1",
+      "chnl1": "a",
+      "chnl2": "b",
+      "chnl3": "c",
+      "email": "aditya1Test10030@yahoo.com",
+      "response_format": "rawHtml",
+      "dedup_service_project": "news_command",
+      "json_config": "[{\"qLimit\":1,\"lookBackInterval\":1,\"category\":\"5\",\"priority\":1,\"dataType\":\"ret-clickers\"}]\n"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "abcdef123",
+      "domainName": "",
+      "http": {
+        "method": "GET",
+        "path": "/",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "1.2.3.4",
+        "userAgent": "APIClient/1.0"
+      },
+      "requestId": "req-id-placeholder",
+      "stage": "$default",
+      "time": "09/Apr/2015:12:34:56 +0000",
+      "timeEpoch": 1428582896000
+    },
+    "isBase64Encoded": false
+  },
+  {
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/",
+    "rawQueryString": "ip=1.2.3.4&template_id=1&chnl1=a&chnl2=b&chnl3=c&email=aditya1Test10030@yahoo.com&response_format=rawHtml&dedup_service_project=news_command&json_config=%5B%7B%22qLimit%22%3A2%2C%22lookBackInterval%22%3A1%2C%22category%22%3A%225%22%2C%22priority%22%3A1%2C%22dataType%22%3A%22ret-clickers%22%7D%5D",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "",
+      "user-agent": "APIClient/1.0"
+    },
+    "queryStringParameters": {
+      "ip": "1.2.3.4",
+      "template_id": "1",
+      "chnl1": "a",
+      "chnl2": "b",
+      "chnl3": "c",
+      "email": "aditya1Test10030@yahoo.com",
+      "response_format": "rawHtml",
+      "dedup_service_project": "news_command",
+      "json_config": "[{\"qLimit\":2,\"lookBackInterval\":1,\"category\":\"5\",\"priority\":1,\"dataType\":\"ret-clickers\"}]\n"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "abcdef123",
+      "domainName": "",
+      "http": {
+        "method": "GET",
+        "path": "/",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "1.2.3.4",
+        "userAgent": "APIClient/1.0"
+      },
+      "requestId": "req-id-placeholder",
+      "stage": "$default",
+      "time": "09/Apr/2015:12:34:56 +0000",
+      "timeEpoch": 1428582896000
+    },
+    "isBase64Encoded": false
+  },
+  {
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/",
+    "rawQueryString": "ip=1.2.3.4&template_id=1&chnl1=a&chnl2=b&chnl3=c&email=aditya1Test10030@yahoo.com&response_format=rawHtml&dedup_service_project=news_command&json_config=%5B%7B%22qLimit%22%3A200%2C%22lookBackInterval%22%3A1%2C%22category%22%3A%225%22%2C%22priority%22%3A1%2C%22dataType%22%3A%22ret-clickers%22%7D%5D",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "",
+      "user-agent": "APIClient/1.0"
+    },
+    "queryStringParameters": {
+      "ip": "1.2.3.4",
+      "template_id": "1",
+      "chnl1": "a",
+      "chnl2": "b",
+      "chnl3": "c",
+      "email": "aditya1Test10030@yahoo.com",
+      "response_format": "rawHtml",
+      "dedup_service_project": "news_command",
+      "json_config": "[{\"qLimit\":200,\"lookBackInterval\":1,\"category\":\"5\",\"priority\":1,\"dataType\":\"ret-clickers\"}]\n"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "abcdef123",
+      "domainName": "",
+      "http": {
+        "method": "GET",
+        "path": "/",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "1.2.3.4",
+        "userAgent": "APIClient/1.0"
+      },
+      "requestId": "req-id-placeholder",
+      "stage": "$default",
+      "time": "09/Apr/2015:12:34:56 +0000",
+      "timeEpoch": 1428582896000
+    },
+    "isBase64Encoded": false
+  },
+  {
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/",
+    "rawQueryString": "ip=1.2.3.4&template_id=1&chnl1=a&chnl2=b&chnl3=c&email=aditya1Test10030@yahoo.com&response_format=rawHtml&dedup_service_project=news_command&json_config=%5B%7B%22qLimit%22%3A200%2C%22lookBackInterval%22%3A1%2C%22category%22%3A%225%22%2C%22priority%22%3A1%2C%22dataType%22%3A%22ret-clickers%22%7D%5D",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "",
+      "user-agent": "APIClient/1.0"
+    },
+    "queryStringParameters": {
+      "ip": "1.2.3.4",
+      "template_id": "1",
+      "chnl1": "a",
+      "chnl2": "b",
+      "chnl3": "c",
+      "email": "aditya1Test10030@yahoo.com",
+      "response_format": "rawHtml",
+      "dedup_service_project": "news_command",
+      "json_config": "[{\"qLimit\":200,\"lookBackInterval\":1,\"category\":\"5\",\"priority\":1,\"dataType\":\"ret-clickers\"}]\n"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "abcdef123",
+      "domainName": "",
+      "http": {
+        "method": "GET",
+        "path": "/",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "1.2.3.4",
+        "userAgent": "APIClient/1.0"
+      },
+      "requestId": "req-id-placeholder",
+      "stage": "$default",
+      "time": "09/Apr/2015:12:34:56 +0000",
+      "timeEpoch": 1428582896000
+    },
+    "isBase64Encoded": false
+  }
+]
